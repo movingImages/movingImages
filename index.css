@@ -61,16 +61,14 @@ body {
   user-select: none;
 }
 
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
 
 
 .embed-responsive{
   margin-top: 1%;
 }
 
+video {
+  object-fit: cover;
+}
 /*  <link href="index.css" rel="stylesheet">
   <link href="team.css" rel="sytlesheet">
